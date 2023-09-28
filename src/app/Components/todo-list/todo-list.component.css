@@ -1,0 +1,21 @@
+.task-list {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    li {
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+    }
+  
+    .completed {
+      text-decoration: line-through;
+    }
+  
+    .completed-task {
+      color: #888;
+    }
+  }
+  
